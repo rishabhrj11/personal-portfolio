@@ -1,9 +1,9 @@
 {% extends 'portfolio/base.html' %}
 {% block content %}
 
-<h2> {{blog.title}} </h2>
+<h2 class="text-center mt-3"> {{blog.title}} </h2>
 
-<h4> {{blog.date|date:'F jS Y'}}</h4>
+<h4 class="text-center text-muted mb-5"> {{blog.date|date:'F jS Y'}}</h4>
 
 {{blog.description|safe}}
 
